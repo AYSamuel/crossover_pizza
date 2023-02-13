@@ -33,6 +33,12 @@
     font-size: 8em;
   }
 
+  #thirdTitle{
+    color: rgb(2, 21, 38);
+    height: 35%;
+    font-size: 8em;
+  }
+
 div> .darkBoxText{
 margin: 1em;
 }
@@ -91,39 +97,8 @@ margin: 1em;
   background-color: #1F2428;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.title-2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 380;
+}
 
