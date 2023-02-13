@@ -20,9 +20,8 @@
 .blackdiv {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 2em;
+  padding-top: 4em;
 }
 .blackdiv h2 {
   font-size: 4em;
@@ -42,12 +41,17 @@
 
 .blackdiv img {
   position: absolute;
-  top: 60%;
+  bottom: -25%;
+  left: 25%;
   width: 900px;
 }
 
 .white {
-  padding: 10em 10em;
+  padding: 2em;
+}
+.whitediv1 {
+  margin-top: 10em;
+  gap: 2em;
 }
 .whitediv1 h2 {
   font-family: 'Hurricane', cursive;
