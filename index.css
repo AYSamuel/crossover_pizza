@@ -3,5 +3,62 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Hurricane', cursive; */
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
+/* *section SAMUEL */
+
+.black {
+  background: url(./assets/bg_section4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 90vh;
+  position: relative;
+}
+.blackdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.blackdiv h2 {
+  font-size: 4em;
+  font-family: 'Hurricane', cursive;
+  word-spacing: 0.1em;
+}
+.blackdiv p {
+  width: 30%;
+  text-align: center;
+}
+.blackdiv .hline {
+  width: 8%;
+  border: 0;
+  border-bottom: 0.3em solid white;
+  opacity: 1;
+}
+
+.blackdiv img {
+  position: absolute;
+  top: 60%;
+  width: 900px;
+}
+
+.white {
+  padding: 10em 10em;
+}
+.whitediv1 h2 {
+  font-family: 'Hurricane', cursive;
+  font-weight: 600;
+  font-size: 3em;
+  word-spacing: 0.1em;
+}
+.whitediv2 {
+  padding: 10em;
+}
+.whitediv2 .p-3 {
+  font-weight: 500;
+}
+
+/* *end of section SAMUEL */
