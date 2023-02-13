@@ -21,7 +21,7 @@ header {
 #header-container {
   /* border: 5px solid red; */
   justify-content: center;
-  color: #ffffff;
+  color: #eaeaea;
   width: 1440px;
   height: 1056px;
   background-image: url("./assets/bg_section1.png");
@@ -31,16 +31,16 @@ header {
 
 
 #nav-container {
+  /* border: 10px solid orange; */
   background-color: transparent;
   display: flex;
   justify-content: right;
   align-items: center;
-  padding: 2.3rem;
+  padding: 1rem;
 }
 
 #nav-container ul {
   display: flex;
-  /* align-items: center; */
 }
 
 #nav-container ul li {
@@ -54,40 +54,69 @@ header {
   text-transform: uppercase;
   padding: 10px;
 }
-
-.search-bar input[type=text] {
-  width: 200px;
-  height: 50px;
-  border-radius: 25px;
-  border: none;
+#nav-container ul li:hover {
+  border-bottom: 2px solid #eaeaea;
+  text-shadow: #eaeaea 5px 0px 10px;
 }
 
-.search-bar button {
 
-  color: #f2f2f2;
-  float: right;
-  padding: 5px 10px;
-  margin-right: 16px;
-  font-size: 12px;
+#search-container {
+  display: flex;
+  margin: 2em 0;
+  width: 20%;
+  align-items: center;
+}
+
+#search-one {
+  background-color: white;
+  height: 2.5rem;
+  padding: 0.8em;
   border: none;
+  border-radius: 5px 0 0 5px;
+  color: #b5b6ba;
+}
+
+#search-two {
+  background-color: white;
+  height: 2.5rem;
+  border: none;
+  width: 70%;
+}
+
+#search-two::placeholder {
+  color: #b5b6ba;
+}
+
+#search-three {
+  width: 30%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #b3b3b3;
+  color: white;
+  font-weight: 700;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
+#search-three:hover {
+  background-color: #eaeaea;
+  color: #2e3034;
+}
 
 
 .header-logo {
   /* border: 10px solid brown; */
   margin: 0% 5%;
-
+  cursor: pointer;
 }
 
 .header-title {
   /* border: 5px solid hotpink; */
   font-family: 'Hurricane', cursive;
-  /* font-style: italic; */
-  /* font-weight: 400; */
   font-size: 170px;
   margin: 0 2%;
+  text-shadow: #000 5px 0 20px;
 }
 
 .header-subtitle {
@@ -114,8 +143,9 @@ header {
   text-decoration: none;
   display: inline-block;
   text-transform: uppercase;
-
-
+}
+.button-header:hover {
+ color: #b3b3b3;
 }
 
 .header-text {
