@@ -314,6 +314,10 @@ margin: 1em;
   font-weight: 380;
 }
 
+.pasta-title {
+  font-weight: 800;
+}
+
 .footer-links a {
   text-decoration: none;
 }
@@ -473,6 +477,7 @@ header {
   font-weight: 500;
   margin: 0% 5%;
 }
+
 
 
 
