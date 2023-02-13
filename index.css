@@ -175,6 +175,12 @@ header {
     font-size: 8em;
   }
 
+  #thirdTitle{
+    color: rgb(2, 21, 38);
+    height: 35%;
+    font-size: 8em;
+  }
+
 div> .darkBoxText{
 margin: 1em;
 }
@@ -242,6 +248,12 @@ margin: 1em;
   right: 400px;
 }
 
+
+.title-2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 380;
+}
+
 .footer-links a {
   text-decoration: none;
 }
@@ -291,11 +303,3 @@ margin: 1em;
 
 
 
-.header-text {
-  /* border: 5px solid aqua; */
-  width: 35%;
-  font-size: 21px;
-  font-style: italic;
-  font-weight: 500;
-  margin: 0% 5%;
-}
