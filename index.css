@@ -6,6 +6,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
+
  #blackPart{
     background-color: #1F2428;
     display: flex;
@@ -89,6 +90,8 @@ margin: 1em;
 #footer-title {
   background-color: #1F2428;
 }
+
+
 
 
 
