@@ -3,5 +3,126 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Hurricane', cursive; */
+}
+
+body {
   font-family: "Open Sans", sans-serif;
+  max-width: 1440px;
+  /* background-color:#222222; */
+}
+
+header {
+  /* border: 10px solid green; */
+  display: flex;
+  justify-content: center;
+
+}
+
+#header-container {
+  /* border: 5px solid red; */
+  justify-content: center;
+  color: #ffffff;
+  width: 1440px;
+  height: 1056px;
+  background-image: url("./assets/bg_section1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+#nav-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 2.3rem;
+}
+
+#nav-container ul {
+  display: flex;
+  /* align-items: center; */
+}
+
+#nav-container ul li {
+  /* border: 5px solid greenyellow; */
+  /* color: white; */
+  font-size: 17px;
+  font-weight: 700;
+  list-style: none;
+  margin-right: 2em;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.search-bar input[type=text] {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+}
+
+.search-bar button {
+
+  color: #f2f2f2;
+  float: right;
+  padding: 5px 10px;
+  margin-right: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.header-logo {
+  /* border: 10px solid brown; */
+  margin: 0% 5%;
+
+}
+
+.header-title {
+  /* border: 5px solid hotpink; */
+  font-family: 'Hurricane', cursive;
+  /* font-style: italic; */
+  /* font-weight: 400; */
+  font-size: 170px;
+  margin: 0 2%;
+}
+
+.header-subtitle {
+  /* border: 5px solid lawngreen; */
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0% 5%;
+  padding: 0 0 1% 0;
+}
+
+.button-header {
+  /* border: 5px solid chocolate; */
+  margin: 2% 5%;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #eaeaea;
+  border: none;
+  color: #2e3034;
+  padding: 10px 40px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+
+
+}
+
+.header-text {
+  /* border: 5px solid aqua; */
+  width: 35%;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0% 5%;
 }
