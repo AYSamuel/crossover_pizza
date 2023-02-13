@@ -83,7 +83,7 @@ margin: 1em;
   }
 
   .btn{
-    width: 150px;
+    width: 200px;
     border-radius: 20px;
     font-weight: bold;
   }
@@ -95,10 +95,69 @@ margin: 1em;
 
 #footer-title {
   background-color: #1F2428;
+
+  position: relative;
 }
+.footer-img {
+  position: absolute;
+  height: 500px;
+  width: 1000px;
+  top: 10px;
+  right: 400px;
+}
+
 
 .title-2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 380;
 }
+
+.footer-links a {
+  text-decoration: none;
+}
+
+
+.containerWhite h3{
+    font-weight: bold;
+}
+
+#blackPart .btn{
+    margin-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
