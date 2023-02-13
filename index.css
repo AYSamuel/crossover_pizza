@@ -7,4 +7,16 @@
 }
 #footer-title {
   background-color: #1F2428;
+  position: relative;
+}
+.footer-img {
+  position: absolute;
+  height: 500px;
+  width: 1000px;
+  top: 10px;
+  right: 400px;
+}
+
+.footer-links a {
+  text-decoration: none;
 }
